@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Verify
+  body
+    h1 Verify cerificate
+    form(method='POST',action='/verify',enctype='multipart/form-data')
+      h3 Upload File:
+      input(type='file',accept='image/png, image/jpeg',name="image")
+      h3 Text Inputs:
+      label(for='certificateId') Certificate ID:
+      input(type='number', name='certificateId', placeholder='Certificate ID')
+      label(for='name') Name:
+      input(type='text', name='name', placeholder='Name')
+      label(for='courseName') Course Name:
+      input(type='text', name='courseName', placeholder='Course Name')
+      label(for='issueDate') Issue Date:
+      input(type='text', name='issueDate', placeholder='Issue Date')
+      label(for='issuerAuthority') Issuer Authority:
+      input(type='text', name='issuerAuthority', placeholder='Issuer Authority')
+      br
+      br
+      button(type='submit') Submit
