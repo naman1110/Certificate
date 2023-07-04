@@ -1,7 +1,7 @@
 
 # Certificate Issuance and verification System
 
-The Certificate Issuance System is a web application that allows users to issue certificates by providing the necessary information and generating a QR code for each certificate.
+The Certificate Issuance System is a web application that allows users to issue certificates by providing the necessary information that stored on blockchain and generating a QR code for each certificate.
 
 ## Features
 
